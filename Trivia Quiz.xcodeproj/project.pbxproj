@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5397CC281B18EB00A6B0F5 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5397CB281B18EB00A6B0F5 /* ControllerView.swift */; };
+		DF5397CE281B1C0900A6B0F5 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5397CD281B1C0900A6B0F5 /* QuizResultsView.swift */; };
+		DF5397D0281B2B4700A6B0F5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5397CF281B2B4700A6B0F5 /* QuestionView.swift */; };
+		DF53981E28208E1F00A6B0F5 /* PrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53981D28208E1F00A6B0F5 /* PrototypeView.swift */; };
+		DF5398202820913400A6B0F5 /* PrototypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53981F2820913400A6B0F5 /* PrototypeButton.swift */; };
+		DF53982228209A1400A6B0F5 /* PrototypeQuizResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53982128209A1400A6B0F5 /* PrototypeQuizResults.swift */; };
 		DF9AAB5128158E6800E65E4B /* Trivia_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB5028158E6800E65E4B /* Trivia_QuizApp.swift */; };
-		DF9AAB5328158E6800E65E4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB5228158E6800E65E4B /* ContentView.swift */; };
 		DF9AAB5528158E6900E65E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9AAB5428158E6900E65E4B /* Assets.xcassets */; };
 		DF9AAB5828158E6900E65E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9AAB5728158E6900E65E4B /* Preview Assets.xcassets */; };
+		DF9AAB5F2815903500E65E4B /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB5E2815903500E65E4B /* QuizData.swift */; };
+		DF9AAB612815918B00E65E4B /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB602815918B00E65E4B /* QuizManager.swift */; };
+		DF9AAB632817187E00E65E4B /* QuizMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB622817187E00E65E4B /* QuizMenuView.swift */; };
+		DF9AAB6528171FDB00E65E4B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB6428171FDB00E65E4B /* QuizView.swift */; };
+		DF9AAB6B28175EE700E65E4B /* QuizButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB6A28175EE700E65E4B /* QuizButton.swift */; };
+		DF9AAB6D28178A8900E65E4B /* String Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB6C28178A8900E65E4B /* String Helper.swift */; };
+		DF9AAB722817962700E65E4B /* QuizView Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AAB712817962700E65E4B /* QuizView Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF5397CB281B18EB00A6B0F5 /* ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
+		DF5397CD281B1C0900A6B0F5 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
+		DF5397CF281B2B4700A6B0F5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		DF53981D28208E1F00A6B0F5 /* PrototypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeView.swift; sourceTree = "<group>"; };
+		DF53981F2820913400A6B0F5 /* PrototypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeButton.swift; sourceTree = "<group>"; };
+		DF53982128209A1400A6B0F5 /* PrototypeQuizResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeQuizResults.swift; sourceTree = "<group>"; };
 		DF9AAB4D28158E6800E65E4B /* Trivia Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9AAB5028158E6800E65E4B /* Trivia_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia_QuizApp.swift; sourceTree = "<group>"; };
-		DF9AAB5228158E6800E65E4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF9AAB5428158E6900E65E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9AAB5728158E6900E65E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF9AAB5E2815903500E65E4B /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		DF9AAB602815918B00E65E4B /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		DF9AAB622817187E00E65E4B /* QuizMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMenuView.swift; sourceTree = "<group>"; };
+		DF9AAB6428171FDB00E65E4B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		DF9AAB6A28175EE700E65E4B /* QuizButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizButton.swift; sourceTree = "<group>"; };
+		DF9AAB6C28178A8900E65E4B /* String Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Helper.swift"; sourceTree = "<group>"; };
+		DF9AAB712817962700E65E4B /* QuizView Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizView Components.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF5398232820A5C600A6B0F5 /* Simple Prototype Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF53981D28208E1F00A6B0F5 /* PrototypeView.swift */,
+				DF53981F2820913400A6B0F5 /* PrototypeButton.swift */,
+				DF53982128209A1400A6B0F5 /* PrototypeQuizResults.swift */,
+			);
+			path = "Simple Prototype Views";
+			sourceTree = "<group>";
+		};
+		DF5398242820A5E700A6B0F5 /* Designed Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AAB6428171FDB00E65E4B /* QuizView.swift */,
+				DF5397CD281B1C0900A6B0F5 /* QuizResultsView.swift */,
+			);
+			path = "Designed Views";
+			sourceTree = "<group>";
+		};
 		DF9AAB4428158E6800E65E4B = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +95,14 @@
 			isa = PBXGroup;
 			children = (
 				DF9AAB5028158E6800E65E4B /* Trivia_QuizApp.swift */,
-				DF9AAB5228158E6800E65E4B /* ContentView.swift */,
+				DF5397CB281B18EB00A6B0F5 /* ControllerView.swift */,
+				DF9AAB622817187E00E65E4B /* QuizMenuView.swift */,
+				DF5398242820A5E700A6B0F5 /* Designed Views */,
+				DF5398232820A5C600A6B0F5 /* Simple Prototype Views */,
+				DF9AAB70281794EA00E65E4B /* Components */,
+				DF9AAB6E281793D600E65E4B /* Model */,
+				DF9AAB6F281793ED00E65E4B /* ViewModel */,
+				DF9AAB6C28178A8900E65E4B /* String Helper.swift */,
 				DF9AAB5428158E6900E65E4B /* Assets.xcassets */,
 				DF9AAB5628158E6900E65E4B /* Preview Content */,
 			);
@@ -65,6 +115,32 @@
 				DF9AAB5728158E6900E65E4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF9AAB6E281793D600E65E4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AAB5E2815903500E65E4B /* QuizData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF9AAB6F281793ED00E65E4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF9AAB602815918B00E65E4B /* QuizManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF9AAB70281794EA00E65E4B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF5397CF281B2B4700A6B0F5 /* QuestionView.swift */,
+				DF9AAB6A28175EE700E65E4B /* QuizButton.swift */,
+				DF9AAB712817962700E65E4B /* QuizView Components.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9AAB5328158E6800E65E4B /* ContentView.swift in Sources */,
+				DF9AAB722817962700E65E4B /* QuizView Components.swift in Sources */,
+				DF5398202820913400A6B0F5 /* PrototypeButton.swift in Sources */,
+				DF53982228209A1400A6B0F5 /* PrototypeQuizResults.swift in Sources */,
+				DF9AAB6B28175EE700E65E4B /* QuizButton.swift in Sources */,
+				DF5397CC281B18EB00A6B0F5 /* ControllerView.swift in Sources */,
+				DF53981E28208E1F00A6B0F5 /* PrototypeView.swift in Sources */,
+				DF9AAB612815918B00E65E4B /* QuizManager.swift in Sources */,
+				DF5397CE281B1C0900A6B0F5 /* QuizResultsView.swift in Sources */,
+				DF9AAB632817187E00E65E4B /* QuizMenuView.swift in Sources */,
 				DF9AAB5128158E6800E65E4B /* Trivia_QuizApp.swift in Sources */,
+				DF5397D0281B2B4700A6B0F5 /* QuestionView.swift in Sources */,
+				DF9AAB6D28178A8900E65E4B /* String Helper.swift in Sources */,
+				DF9AAB5F2815903500E65E4B /* QuizData.swift in Sources */,
+				DF9AAB6528171FDB00E65E4B /* QuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
